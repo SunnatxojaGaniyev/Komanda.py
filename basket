@@ -22,8 +22,8 @@ class ShoppingCart:
         else:
             print("\n📌 Savat tarkibi:")
             for name, details in self.cart.items():
-                print(f"{name} - {details['quantity']} dona - {details['price']} so'm")
-            print(f"Jami: {self.total_price()} so'm\n")
+                print(f"{name} - {details['quantity']} dona - {details['price']} $")
+            print(f"Jami: {self.total_price()} $\n")
 
     def total_price(self):
         return sum(details['price'] * details['quantity'] for details in self.cart.values())
@@ -31,9 +31,10 @@ class ShoppingCart:
 # Dasturni ishlatish
 cart = ShoppingCart()
 
-cart.add_product("Olma", 5000, 3)
-cart.add_product("Banan", 8000, 2)
+cart.add_product("iPhone 15 pro max", 1250, 20)
+cart.add_product("Mackbook M2", 1300, 15)
 cart.view_cart()
 
-cart.remove_product("Olma")
+cart.remove_product("Mackbook M2")
 cart.view_cart()
+
