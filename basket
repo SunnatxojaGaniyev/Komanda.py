@@ -1,0 +1,39 @@
+class ShoppingCart:
+    def __init__(self):
+        self.cart = {}
+
+    def add_product(self, name, price, quantity=1):
+        if name in self.cart:
+            self.cart[name]['quantity'] += quantity
+        else:
+            self.cart[name] = {'price': price, 'quantity': quantity}
+        print(f"{quantity} ta {name} savatga qo'shildi.")
+
+    def remove_product(self, name):
+        if name in self.cart:
+            del self.cart[name]
+            print(f"{name} savatdan olib tashlandi.")
+        else:
+            print(f"{name} savatda yo'q!")
+
+    def view_cart(self):
+        if not self.cart:
+            print("Savat bo'sh.")
+        else:
+            print("\n📌 Savat tarkibi:")
+            for name, details in self.cart.items():
+                print(f"{name} - {details['quantity']} dona - {details['price']} so'm")
+            print(f"Jami: {self.total_price()} so'm\n")
+
+    def total_price(self):
+        return sum(details['price'] * details['quantity'] for details in self.cart.values())
+
+# Dasturni ishlatish
+cart = ShoppingCart()
+
+cart.add_product("Olma", 5000, 3)
+cart.add_product("Banan", 8000, 2)
+cart.view_cart()
+
+cart.remove_product("Olma")
+cart.view_cart()
