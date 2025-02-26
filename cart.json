@@ -1,130 +1,35 @@
 {
-  "iPhone 16 Pro Max": {
-    "price": 1200,
-    "quantity": 20
-  },
-  "MacBook M2 Pro": {
-    "price": 1400,
-    "quantity": 10
-  },
-  "iPad M3": {
-    "price": 2000,
-    "quantity": 15
-  },
-  "Apple Watch Series 9": {
-    "price": 400,
-    "quantity": 25
-  },
-  "AirPods Pro (2nd Generation)": {
-    "price": 250,
-    "quantity": 30
-  },
-  "iMac 24-inch (M1)": {
-    "price": 1300,
-    "quantity": 8
-  },
-  "Apple TV 4K": {
-    "price": 180,
-    "quantity": 12
-  },
-  "MacBook Air (M2)": {
-    "price": 999,
-    "quantity": 15
-  },
-  "iPhone 16 Pro Max Case": {
-    "price": 50,
-    "quantity": 40
-  },
-  "MacBook Pro Sleeve": {
-    "price": 30,
-    "quantity": 35
-  },
-  "iPad Screen Protector": {
-    "price": 20,
-    "quantity": 50
-  },
-  "AirPods Charging Case": {
-    "price": 70,
-    "quantity": 20
-  },
-  "Apple Pencil (2nd Generation)": {
-    "price": 130,
-    "quantity": 18
-  },
-  "Lightning to USB Cable": {
-    "price": 25,
-    "quantity": 60
-  },
-  "USB-C to USB Adapter": {
-    "price": 20,
-    "quantity": 45
-  },
-  "Apple Magic Mouse": {
-    "price": 80,
-    "quantity": 25
-  },
-  "Magic Keyboard": {
-    "price": 100,
-    "quantity": 20
-  },
-  "AirTag": {
-    "price": 29,
-    "quantity": 75
-  },
-  "HomePod mini": {
-    "price": 99,
-    "quantity": 30
-  },
-  "Apple Watch Bands": {
-    "price": 50,
-    "quantity": 40
-  },
-  "iPhone Car Mount": {
-    "price": 40,
-    "quantity": 25
-  },
-  "Wireless Charger": {
-    "price": 50,
-    "quantity": 20
-  },
-  "Screen Cleaning Kit": {
-    "price": 15,
-    "quantity": 50
-  },
-  "MacBook Pro Charger": {
-    "price": 80,
-    "quantity": 30
-  },
-  "iPad Smart Cover": {
-    "price": 40,
-    "quantity": 20
-  },
-  "Apple TV Remote": {
-    "price": 59,
-    "quantity": 15
-  },
-  "iPhone Lens Kit": {
-    "price": 70,
-    "quantity": 10
-  },
-  "MacBook Pro Stand": {
-    "price": 40,
-    "quantity": 18
-  },
-  "iPad Stylus Holder": {
-    "price": 15,
-    "quantity": 40
-  },
-  "Apple HDMI Cable": {
-    "price": 30,
-    "quantity": 25
-  },
-  "USB-C Hub": {
-    "price": 45,
-    "quantity": 15
-  },
-  "iPhone Screen Protector": {
-    "price": 20,
-    "quantity": 50
-  }
+    "1": {"name": "iPhone 16 Pro Max", "price": 1200, "quantity": 20},
+    "2": {"name": "MacBook M2 Pro", "price": 1400, "quantity": 10},
+    "3": {"name": "iPad M3", "price": 2000, "quantity": 15},
+    "4": {"name": "Apple Watch Series 9", "price": 400, "quantity": 25},
+    "5": {"name": "AirPods Pro (2nd Generation)", "price": 250, "quantity": 30},
+    "6": {"name": "iMac 24-inch (M1)", "price": 1300, "quantity": 8},
+    "7": {"name": "Apple TV 4K", "price": 180, "quantity": 12},
+    "8": {"name": "MacBook Air (M2)", "price": 999, "quantity": 15},
+    "9": {"name": "iPhone 16 Pro Max Case", "price": 50, "quantity": 40},
+    "10": {"name": "MacBook Pro Sleeve", "price": 30, "quantity": 35},
+    "11": {"name": "iPad Screen Protector", "price": 20, "quantity": 50},
+    "12": {"name": "AirPods Charging Case", "price": 70, "quantity": 20},
+    "13": {"name": "Apple Pencil (2nd Generation)", "price": 130, "quantity": 18},
+    "14": {"name": "Lightning to USB Cable", "price": 25, "quantity": 60},
+    "15": {"name": "USB-C to USB Adapter", "price": 20, "quantity": 45},
+    "16": {"name": "Apple Magic Mouse", "price": 80, "quantity": 25},
+    "17": {"name": "Magic Keyboard", "price": 100, "quantity": 20},
+    "18": {"name": "AirTag", "price": 29, "quantity": 75},
+    "19": {"name": "HomePod mini", "price": 99, "quantity": 30},
+    "20": {"name": "Apple Watch Bands", "price": 50, "quantity": 40},
+    "21": {"name": "iPhone Car Mount", "price": 40, "quantity": 25},
+    "22": {"name": "Wireless Charger", "price": 50, "quantity": 20},
+    "23": {"name": "Screen Cleaning Kit", "price": 15, "quantity": 50},
+    "24": {"name": "MacBook Pro Charger", "price": 80, "quantity": 30},
+    "25": {"name": "iPad Smart Cover", "price": 40, "quantity": 20},
+    "26": {"name": "Apple TV Remote", "price": 59, "quantity": 15},
+    "27": {"name": "iPhone Lens Kit", "price": 70, "quantity": 10},
+    "28": {"name": "MacBook Pro Stand", "price": 40, "quantity": 18},
+    "29": {"name": "iPad Stylus Holder", "price": 15, "quantity": 40},
+    "30": {"name": "Apple HDMI Cable", "price": 30, "quantity": 25},
+    "31": {"name": "USB-C Hub", "price": 45, "quantity": 15},
+    "32": {"name": "iPhone Screen Protector", "price": 20, "quantity": 50},
+    "33": {"name": "a", "price": 4.0, "quantity": 4}
 }
