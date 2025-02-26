@@ -6,7 +6,9 @@ class ShoppingCart:
         self.cart = {}
         self.load_cart()
 
-    def add_product(self, name, price, quantity=1):
+
+
+ def add_product(self, name, price, quantity=1):
         if name in self.cart:
             self.cart[name]['quantity'] += quantity
         else:
@@ -29,6 +31,9 @@ class ShoppingCart:
             for name, details in self.cart.items():
                 print(f"{name} - {details['quantity']} dona - {details['price']} $")
             print(f"💰 Jami: {self.total_price()} $\n")
+
+
+
 
     def total_price(self):
         return sum(details['price'] * details['quantity'] for details in self.cart.values())
