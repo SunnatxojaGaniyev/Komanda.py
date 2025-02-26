@@ -5,6 +5,7 @@ class ShoppingCart:
     def __init__(self):
         self.cart = {}
         self.load_cart()
+        pass
 
 
 
@@ -14,7 +15,7 @@ class ShoppingCart:
         else:
             self.cart[name] = {'price': price, 'quantity': quantity}
         print(f"{quantity} ta {name} savatga qo'shildi.")
-        self.save_cart() 
+        self.save_cart()
     def remove_product(self, name):
         if name in self.cart:
             del self.cart[name]
